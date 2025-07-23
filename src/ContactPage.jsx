@@ -74,14 +74,14 @@ const ContactPage = () => {
                 <strong>Nazario Optical</strong>
               </p>
               <p className="mb-2">
-                456 Vision Blvd
+                Renuka Nagar,
                 <br />
-                Beverly Hills, CA 90210
+                Akola, Maharashtra 444002
               </p>
               <p className="mb-2">
                 📞{" "}
-                <a href="tel:+18005NAZARIO" className="text-decoration-none">
-                  +1 (800) 5-NAZARIO
+                <a href="tel:+911234567890" className="text-decoration-none">
+                  +91 12345 67890
                 </a>
               </p>
               <p>
@@ -96,10 +96,10 @@ const ContactPage = () => {
             </div>
           </div>
 
-          {/* Embedded Map (Optional real map can be added) */}
+          {/* Embedded Map  */}
           <div className="ratio ratio-16x9 mb-4">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.781167224096!2d-118.40035668478252!3d34.07362038060206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bff909a3d975%3A0x4bb61a9f54d5df1!2sBeverly%20Hills%2C%20CA!5e0!3m2!1sen!2sus!4v1718912075596"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7789081.881100919!2d70.9447756745587!3d17.590259008836707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7317b81370bb3%3A0xe935e97e13ed4c5c!2sNazario!5e0!3m2!1sen!2sin!4v1753254996012!5m2!1sen!2sin"
               title="Nazario Map"
               loading="lazy"
               style={{ border: 0 }}
