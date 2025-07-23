@@ -1,6 +1,7 @@
-import React from "react";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import "./App.css";
 
 const ContactPage = () => {
   return (
@@ -17,12 +18,12 @@ const ContactPage = () => {
       <div className="row g-5">
         {/* Contact Form */}
         <div className="col-lg-6">
-          <div className="card shadow-sm border-0">
+          <div className="card shadow border-0">
             <div className="card-body">
               <h5 className="card-title mb-4">Send Us a Message</h5>
               <form>
                 <div className="mb-3">
-                  <label className="form-label">Name</label>
+                  <label className="form-label text-start d-block">Name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -30,7 +31,7 @@ const ContactPage = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label className="form-label">Email</label>
+                  <label className="form-label text-start d-block">Email</label>
                   <input
                     type="email"
                     className="form-control"
@@ -38,7 +39,9 @@ const ContactPage = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label className="form-label">Subject</label>
+                  <label className="form-label text-start d-block">
+                    Subject
+                  </label>
                   <input
                     type="text"
                     className="form-control"
@@ -46,7 +49,9 @@ const ContactPage = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label className="form-label">Message</label>
+                  <label className="form-label text-start d-block">
+                    Message
+                  </label>
                   <textarea
                     className="form-control"
                     rows="4"
@@ -65,9 +70,9 @@ const ContactPage = () => {
           </div>
         </div>
 
-        {/* Map & Info */}
+        {/* Map & Address */}
         <div className="col-lg-6">
-          <div className="card shadow-sm border-0 mb-4">
+          <div className="card shadow border-0 mb-4">
             <div className="card-body">
               <h5 className="card-title mb-3">Our Showroom</h5>
               <p className="mb-2">
@@ -96,10 +101,10 @@ const ContactPage = () => {
             </div>
           </div>
 
-          {/* Embedded Map (Optional real map can be added) */}
+          {/* Embedded Map  */}
           <div className="ratio ratio-16x9 mb-4">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.0057975903105!2d76.97570467365279!3d20.70998918086078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7317b81370bb3%3A0xe935e97e13ed4c5c!2sNazario!5e0!3m2!1sen!2sin!4v1753257518229!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.0057975903105!2d76.97570467365279!3d20.70998918086078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7317b81370bb3%3A0xe935e97e13ed4c5c!2sNazario!5e0!3m2!1sen!2sin!4v1753257518229!5m2!1sen!2sin"
               title="Nazario Map"
               loading="lazy"
               style={{ border: 0 }}
@@ -108,18 +113,35 @@ const ContactPage = () => {
           </div>
 
           {/* Social Media */}
-          <div className="d-flex justify-content-around">
-            <a href="#" className="text-dark text-decoration-none">
-              <i className="bi bi-instagram fs-4"></i> Instagram
+          <div className="d-flex justify-content-around social-links">
+            <a
+              href="#"
+              aria-label="Instagram"
+              className="text-dark text-decoration-none"
+            >
+              <i className="bi bi-instagram fs-4 text-instagram"></i> Instagram
             </a>
-            <a href="#" className="text-dark text-decoration-none">
-              <i className="bi bi-tiktok fs-4"></i> TikTok
+            <a
+              href="#"
+              aria-label="Facebook"
+              className="text-dark text-decoration-none"
+            >
+              <i className="bi bi-facebook fs-4 text-facebook"></i> Facebook
             </a>
-            <a href="#" className="text-dark text-decoration-none">
-              <i className="bi bi-youtube fs-4"></i> YouTube
+
+            <a
+              href="#"
+              aria-label="YouTube"
+              className="text-dark text-decoration-none"
+            >
+              <i className="bi bi-youtube fs-4 text-youtube"></i> YouTube
             </a>
-            <a href="#" className="text-dark text-decoration-none">
-              <i className="bi bi-pinterest fs-4"></i> Pinterest
+            <a
+              href="#"
+              aria-label="Pinterest"
+              className="text-dark text-decoration-none"
+            >
+              <i className="bi bi-pinterest fs-4 text-pinterest"></i> Pinterest
             </a>
           </div>
         </div>
