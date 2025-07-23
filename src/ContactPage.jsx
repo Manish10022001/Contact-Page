@@ -96,10 +96,10 @@ const ContactPage = () => {
             </div>
           </div>
 
-          {/* Embedded Map  */}
+          {/* Embedded Map (Optional real map can be added) */}
           <div className="ratio ratio-16x9 mb-4">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7789081.881100919!2d70.9447756745587!3d17.590259008836707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7317b81370bb3%3A0xe935e97e13ed4c5c!2sNazario!5e0!3m2!1sen!2sin!4v1753254996012!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.0057975903105!2d76.97570467365279!3d20.70998918086078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7317b81370bb3%3A0xe935e97e13ed4c5c!2sNazario!5e0!3m2!1sen!2sin!4v1753257518229!5m2!1sen!2sin" 
               title="Nazario Map"
               loading="lazy"
               style={{ border: 0 }}
