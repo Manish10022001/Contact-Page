@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* Base styles for responsiveness */
+.map-container {
+  height: 320px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Medium screens: stack form above info/map */
+@media (max-width: 992px) {
+  .social-links {
+    justify-content: space-between;
+  }
+}
+
+/* Small screens: reduce padding, stack everything */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .map-container {
+    height: 240px;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .social-links a {
+    font-size: 0.9rem;
+    flex: 1;
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
+/* Extra small screens: further adjust map height */
+@media (max-width: 576px) {
+  .map-container {
+    height: 200px;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
