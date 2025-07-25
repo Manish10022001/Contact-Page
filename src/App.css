@@ -66,8 +66,16 @@ body {
   background: linear-gradient(135deg, var(--bs-secondary) 0%, #495057 100%);
   cursor: not-allowed;
 }
+.social-links-mobile {
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
-.social-link {
+.social-link i {
+  font-size: 1.5rem; /* smaller icons on all devices */
+  min-width: 40px;
+  text-align: center;
   transition: all 0.3s ease;
 }
 
@@ -117,6 +125,17 @@ body {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 400px) {
+  .social-links-mobile .social-link {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .social-link i {
+    font-size: 1.3rem;
+  }
+}
+
 @media (max-width: 768px) {
   .social-links-mobile {
     flex-wrap: wrap;

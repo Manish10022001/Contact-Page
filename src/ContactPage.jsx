@@ -169,7 +169,7 @@ function ContactPage() {
                   <hr className="my-4" />
                   {/*Social Media Links */}
                   <h6 className="mb-3 fw-semibold">Follow Us</h6>
-                  <div className="d-flex justify-content-start social-links-mobile">
+                  <div className="d-flex justify-content-start social-links-mobile" style={{flexWrap: "nowrap"}}>
                     <a
                       href="#"
                       aria-label="Instagram"
