@@ -67,7 +67,7 @@ body {
   cursor: not-allowed;
 }
 .social-links-mobile {
-  flex-wrap: nowrap !important;
+  flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -80,8 +80,8 @@ body {
 }
 
 .social-link:hover {
-  transform: translateY(-3px);
-  background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
+  transform: translateY(-4px);
+  background-color: rgba(var(--bs-primary-rgb), 0.15);
 }
 
 .text-instagram {
